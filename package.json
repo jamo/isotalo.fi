@@ -1,0 +1,13 @@
+{
+  "name": "isotalo.fi",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "build": "node build.mjs",
+    "deploy": "npm run build && wrangler deploy --config wrangler.jsonc"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}
